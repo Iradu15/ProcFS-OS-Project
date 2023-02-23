@@ -1,7 +1,7 @@
 # Operating Systems Project - ProcFS
 ## General Description
 ProcFS is a FUSE-based virtual file system, which aims to provide a
-snaphot of the running processes at mount-time, on the system on which
+snapshot of the running processes at mount-time, on the system on which
 it is mounted. Unlike /proc, the process tree structure is maintained
 and follows three basic rules:
 - each directory represents a process and its name is the PID
